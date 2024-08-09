@@ -1,3 +1,6 @@
+import React from 'react'; // Default import for React
+import ReactDOM from 'react-dom/client'; // Default import for ReactDOM (in React 18+)
+
 // the 2nd arguement object in createElement is used to give attributes to the tag
 // 3rd arguement is children
 const heading = React.createElement("h1", { id: "heading", xyz: "aqeadad" }, "Hello World");
