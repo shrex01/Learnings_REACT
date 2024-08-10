@@ -9,54 +9,8 @@
 <link rel="stylesheet" href="./index.css" />
 
 <body>
-  <div>HELLO TOP OF ROOT</div>
-  <div id="root"></div>
-  <div id="root1"></div>
-  <div>HELLO BELOW ROOT</div>
-
-  <!-- react can work in a single div / single page / basically any single place 
-  we want it to work for example as shown above  no need to make an entire react project etc. like other frameworks-->
-
-
-
-
-
-
-
-
-
-  <!-- || CDN LINKS USED TO INJECT REACT FUNCTIONALITY INTO THE PROJECT || -->
-
-  <!-- core file of react || core react framework algorithm (open that link and u will get a list of react code functions) -->
-  <!-- <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js">
-  </script> -->
-
-  <!-- react dom  (reacct library used for DOM manipulation ) -->
-  <!-- <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js">
-  </script> -->
-
-  <script type="module" src="./app.js">
-    // order of the above script tags matter
-    // react needs to be defined first before using it in app.js
-
-
-
-
-
-    //moved all the below funcionality into app.js ^
-    // .
-    // .
-    // .
-    // // creating an element is a core functionality of react
-    // // so we take create element from React
-    // const heading = React.createElement("h1", {}, "Hello World");
-
-    // // but for creating a root we need access to DOM (adding stuff into browser)
-    // // so we access it from reactDom
-    // const root = ReactDOM.createRoot(document.getElementById("root"))
-
-    // root.render(heading)
-  </script>
+  <div id="root">Not Rendered</div>
+<script type="module" src="app.js"></script>
 </body>
 
 </html>
